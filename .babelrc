@@ -1,0 +1,21 @@
+{
+  "presets": [
+    "react-native"
+  ],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": [
+          "./app"
+        ],
+        "extensions": [
+          ".js"
+        ],
+        "alias": {
+          "apps": "./components/homePage/views"
+        }
+      }
+    ]
+  ]
+}

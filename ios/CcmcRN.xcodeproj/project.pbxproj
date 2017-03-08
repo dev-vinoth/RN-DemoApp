@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		189645C81E60172A001ADA1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189645C71E60172A001ADA1C /* AppDelegate.swift */; };
+		189645CA1E60172A001ADA1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189645C91E60172A001ADA1C /* ViewController.swift */; };
+		189645CD1E60172A001ADA1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189645CB1E60172A001ADA1C /* Main.storyboard */; };
+		189645CF1E60172A001ADA1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189645CE1E60172A001ADA1C /* Assets.xcassets */; };
+		189645D21E60172A001ADA1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189645D01E60172A001ADA1C /* LaunchScreen.storyboard */; };
+		189645DA1E60185C001ADA1C /* ReactModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189645D91E60185C001ADA1C /* ReactModule.swift */; };
+		189645DC1E60186C001ADA1C /* ReactManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189645DB1E60186C001ADA1C /* ReactManager.swift */; };
+		189645DF1E6018D5001ADA1C /* ReactManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 189645DE1E6018D5001ADA1C /* ReactManagerBridge.m */; };
+		3DC9F6256EA8351E64707D8C /* Pods_CcmcRN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5F5C89D09A5C4952A705EC /* Pods_CcmcRN.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		189645C41E60172A001ADA1C /* CcmcRN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CcmcRN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		189645C71E60172A001ADA1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		189645C91E60172A001ADA1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		189645CC1E60172A001ADA1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		189645CE1E60172A001ADA1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		189645D11E60172A001ADA1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		189645D31E60172A001ADA1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189645D91E60185C001ADA1C /* ReactModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReactModule.swift; sourceTree = "<group>"; };
+		189645DB1E60186C001ADA1C /* ReactManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReactManager.swift; sourceTree = "<group>"; };
+		189645DD1E6018D5001ADA1C /* CcmcRN-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CcmcRN-Bridging-Header.h"; sourceTree = "<group>"; };
+		189645DE1E6018D5001ADA1C /* ReactManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactManagerBridge.m; sourceTree = "<group>"; };
+		1A5F5C89D09A5C4952A705EC /* Pods_CcmcRN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CcmcRN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E0FF0C592A585666136060 /* Pods-CcmcRN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CcmcRN.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CcmcRN/Pods-CcmcRN.debug.xcconfig"; sourceTree = "<group>"; };
+		B42B91A8E2FD428C35D53F04 /* Pods-CcmcRN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CcmcRN.release.xcconfig"; path = "Pods/Target Support Files/Pods-CcmcRN/Pods-CcmcRN.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		189645C11E60172A001ADA1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC9F6256EA8351E64707D8C /* Pods_CcmcRN.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		189645BB1E60172A001ADA1C = {
+			isa = PBXGroup;
+			children = (
+				189645C61E60172A001ADA1C /* CcmcRN */,
+				189645C51E60172A001ADA1C /* Products */,
+				CECA4FEAA3773810AC85C9D4 /* Pods */,
+				84A28A55527EFFACEC51BFDA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		189645C51E60172A001ADA1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				189645C41E60172A001ADA1C /* CcmcRN.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		189645C61E60172A001ADA1C /* CcmcRN */ = {
+			isa = PBXGroup;
+			children = (
+				189645C71E60172A001ADA1C /* AppDelegate.swift */,
+				189645C91E60172A001ADA1C /* ViewController.swift */,
+				189645D91E60185C001ADA1C /* ReactModule.swift */,
+				189645DB1E60186C001ADA1C /* ReactManager.swift */,
+				189645DE1E6018D5001ADA1C /* ReactManagerBridge.m */,
+				189645CB1E60172A001ADA1C /* Main.storyboard */,
+				189645CE1E60172A001ADA1C /* Assets.xcassets */,
+				189645D01E60172A001ADA1C /* LaunchScreen.storyboard */,
+				189645D31E60172A001ADA1C /* Info.plist */,
+				189645DD1E6018D5001ADA1C /* CcmcRN-Bridging-Header.h */,
+			);
+			path = CcmcRN;
+			sourceTree = "<group>";
+		};
+		84A28A55527EFFACEC51BFDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A5F5C89D09A5C4952A705EC /* Pods_CcmcRN.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CECA4FEAA3773810AC85C9D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89E0FF0C592A585666136060 /* Pods-CcmcRN.debug.xcconfig */,
+				B42B91A8E2FD428C35D53F04 /* Pods-CcmcRN.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		189645C31E60172A001ADA1C /* CcmcRN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189645D61E60172A001ADA1C /* Build configuration list for PBXNativeTarget "CcmcRN" */;
+			buildPhases = (
+				873A73ED0A1DF04782E626EF /* [CP] Check Pods Manifest.lock */,
+				189645C01E60172A001ADA1C /* Sources */,
+				189645C11E60172A001ADA1C /* Frameworks */,
+				189645C21E60172A001ADA1C /* Resources */,
+				8C077E13CEBB7B9747C453D1 /* [CP] Embed Pods Frameworks */,
+				90C1BB7449B9E10F6CBFB37A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CcmcRN;
+			productName = CcmcRN;
+			productReference = 189645C41E60172A001ADA1C /* CcmcRN.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		189645BC1E60172A001ADA1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Kovan;
+				TargetAttributes = {
+					189645C31E60172A001ADA1C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = T9R9Z8ZWEM;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 189645BF1E60172A001ADA1C /* Build configuration list for PBXProject "CcmcRN" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 189645BB1E60172A001ADA1C;
+			productRefGroup = 189645C51E60172A001ADA1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				189645C31E60172A001ADA1C /* CcmcRN */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		189645C21E60172A001ADA1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189645D21E60172A001ADA1C /* LaunchScreen.storyboard in Resources */,
+				189645CF1E60172A001ADA1C /* Assets.xcassets in Resources */,
+				189645CD1E60172A001ADA1C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		873A73ED0A1DF04782E626EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8C077E13CEBB7B9747C453D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CcmcRN/Pods-CcmcRN-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90C1BB7449B9E10F6CBFB37A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CcmcRN/Pods-CcmcRN-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		189645C01E60172A001ADA1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189645DA1E60185C001ADA1C /* ReactModule.swift in Sources */,
+				189645DF1E6018D5001ADA1C /* ReactManagerBridge.m in Sources */,
+				189645CA1E60172A001ADA1C /* ViewController.swift in Sources */,
+				189645C81E60172A001ADA1C /* AppDelegate.swift in Sources */,
+				189645DC1E60186C001ADA1C /* ReactManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		189645CB1E60172A001ADA1C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189645CC1E60172A001ADA1C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		189645D01E60172A001ADA1C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189645D11E60172A001ADA1C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		189645D41E60172A001ADA1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		189645D51E60172A001ADA1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		189645D71E60172A001ADA1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89E0FF0C592A585666136060 /* Pods-CcmcRN.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = T9R9Z8ZWEM;
+				INFOPLIST_FILE = CcmcRN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kovan.CcmcRN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CcmcRN/CcmcRN-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		189645D81E60172A001ADA1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B42B91A8E2FD428C35D53F04 /* Pods-CcmcRN.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = T9R9Z8ZWEM;
+				INFOPLIST_FILE = CcmcRN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kovan.CcmcRN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CcmcRN/CcmcRN-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		189645BF1E60172A001ADA1C /* Build configuration list for PBXProject "CcmcRN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189645D41E60172A001ADA1C /* Debug */,
+				189645D51E60172A001ADA1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189645D61E60172A001ADA1C /* Build configuration list for PBXNativeTarget "CcmcRN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189645D71E60172A001ADA1C /* Debug */,
+				189645D81E60172A001ADA1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 189645BC1E60172A001ADA1C /* Project object */;
+}

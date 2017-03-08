@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'CcmcRN' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for CcmcRN
+
+	pod 'React', :path => '../node_modules/react-native', :subspecs => [
+	  'Core',
+	  'RCTImage',
+	  'RCTNetwork',
+	  'RCTText',
+	  'RCTWebSocket',
+	  'RCTAnimation',
+      'RCTLinkingIOS',
+	]
+    
+    pod 'react-native-material-kit', :path => '../node_modules/react-native-material-kit'
+
+end

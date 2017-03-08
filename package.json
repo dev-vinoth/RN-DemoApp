@@ -1,0 +1,37 @@
+{
+  "name": "ccmc",
+  "version": "0.0.1",
+  "private": true,
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "native-base": "^2.0.12",
+    "react": "15.4.1",
+    "react-native": "0.38.0",
+    "react-native-drawer": "^2.3.0",
+    "react-native-foldview": "^1.1.1",
+    "react-native-material-kit": "^0.3.3",
+    "react-native-router-flux": "^3.37.0",
+    "react-native-scrollable-tab-view": "^0.7.2",
+    "react-native-tab-navigator": "^0.3.3",
+    "react-redux": "4.4.5",
+    "redux": "3.5.2",
+    "redux-actions": "0.11.0",
+    "redux-thunk": "2.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-jest": "17.0.2",
+    "babel-plugin-module-resolver": "^2.4.0",
+    "babel-preset-react-native": "1.9.0",
+    "jest": "17.0.3",
+    "react-test-renderer": "15.4.1",
+    "reactotron-react-native": "^1.7.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
