@@ -4,6 +4,7 @@ export const GRIEVANCES_PUSH   = 'GRIEVANCES-PUSH';
 
 export const GET_GRIEVANCES    = 'GET_GRIEVANCES';
 export const GET_NEWS          = 'GET_NEWS';
+export const GET_GRAPH         = 'GET_GRAPH';
 
 //*** Menu Types ***//
 export const HOME              ='HOME';

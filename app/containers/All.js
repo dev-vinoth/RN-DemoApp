@@ -5,7 +5,8 @@ import {Platform} from 'react-native';
 import ScrollableTabView, { ScrollableTabBar, DefaultTabBar, } from 'react-native-scrollable-tab-view';
 
 import Home from './home';
-import News from './news';
+import Graph from './graph';
+import Map from './map';
 
 export default class MyComponent extends Component {
   render() {
@@ -16,8 +17,10 @@ export default class MyComponent extends Component {
         }>
         <Home
           tabLabel="All" />
-        <News
-          tabLabel="News" />
+        <Graph
+          tabLabel="Graph" />
+        <Map
+          tabLabel="Map" />
       </ScrollableTabView>
     );
   }

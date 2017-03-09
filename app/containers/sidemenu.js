@@ -79,14 +79,16 @@ class SideMenu extends Component {
 
   renderRow = (data, sId, rId) => {
     // console.log('count', sId, rId);
-    console.log(data);
+    //console.log(data);
 
     //this.props.actions.routeNavigation(data)
 
     var space = (<View style={styles.viewSpace}></View>);
 
     return (
-      <TouchableHighlight onPress={() => this.props.actions.routeNavigation(data)}>
+      <TouchableHighlight
+        underlayColor={'white'}
+        onPress={() => this.props.actions.routeNavigation(data)}>
         <View style={{margin:15}}>
           <Text>{data.title}</Text>
         </View>
@@ -149,7 +151,8 @@ const styles = StyleSheet.create({
 
 // "state.home" is set in reducers/index.js
 export default connect(state => ({
-    sideMenuReducer: state.sideMenu
+    sideMenuReducer: state.sideMenu,
+    navRouteReducer: state.nav //props to get scene details
   }),
   (dispatch) => ({
     actions: bindActionCreators(sideMenuActions, dispatch)

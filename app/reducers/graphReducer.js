@@ -1,16 +1,25 @@
 import * as types from '../actions/action-types';
 
 const initialState = {
-  newsData: [],
+  graphData: [
+    [0, 10],
+    [1, 3],
+    [3, 77],
+    [4, 67],
+    [6, 34],
+    [8, 11],
+    [12, 52],
+    [14, 84],
+  ],
 };
 
 export default function (state = initialState, action = {}) {
   switch (action.type) {
-    case types.GET_NEWS:
+    case types.GET_GRAPH:
   //console.log('payload',action.payload)
     return {
       ...state,
-      newsData: action.payload
+      // graphData: action.payload
 
     };
 

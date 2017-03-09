@@ -10,7 +10,7 @@ export function getNews(URL) {
           //console.log('RESPONSE', res);
           //console.log('res',res['current']['temp_c']);
           dispatch({
-            type: types.GET_NEWS,
+            type: types.GET_GRAPH,
             payload: res,
           })
         });

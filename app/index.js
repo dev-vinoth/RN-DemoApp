@@ -18,7 +18,7 @@ import NavigationDrawer from './utils/navigation_drawer'
 import All from './containers/All';
 import Home from './containers/home';
 import Grievances from './containers/grievances';
-import News from './containers/news';
+import Graph from './containers/graph';
 
 const ConnectedRouter = connect()(Router)
 const store = configureStore()
@@ -40,7 +40,7 @@ const Scenes = Actions.create(
         <Scene key='all' component={All} title='CCMC' />
         <Scene key='home' component={Home} title='Home' />
         <Scene key='grievances' component={Grievances} title='Grievances'/>
-        <Scene key='news' component={News} title='News' />
+        <Scene key='graph' component={Graph} title='News' />
       </Scene>
     </Scene>
   </Scene>

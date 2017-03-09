@@ -54,43 +54,6 @@ class Grievances extends Component {
   }
 
 
-  // //MARK : Initial Datasource
-  // static getInitialState() {
-  //   return {
-  //     dataSource: dataSource.cloneWithRows([])
-  //   };
-  // }
-  //
-  //MARK : update Datasource
-  // updateDataSource = () => {
-  //   Network.Get(endpoint.getGrievanceApi).then( (res) => {
-  //     var arr = [];
-  //     console.log('Result : ', res);
-  //     res.map(function (item) {
-  //       console.log("Item", item)
-  //       // console.log(item.Name);
-  //       arr.push(item)
-  //     });
-  //     console.log(arr);
-  //     //this.updateDataSource(arr);
-  //     this.setState({
-  //       artists: this.state.artists.cloneWithRows(arr),
-  //       json: res.results
-  //     });
-  //   });
-  // }
-
-  // componentWillMount() {
-  //   api.getGlasses().then( (res) => {
-  //
-  //     //this.updateDataSource(res)
-  //     this.setState({
-  //       json: res.glasses
-  //
-  //     })
-  //   });
-  // }
-
   _onRefresh() {
     this.setState({refreshing: true});
     this.props.actions.getGrievances(endpoint.getGrievanceApi)
@@ -149,21 +112,19 @@ class Grievances extends Component {
               <Text > { data.status } </Text>
 
           </View>
-          <View style= {[styles.temp2]}>
-            <Text>
-            </Text>
-            <Text style={styles.text}> Category : {data.category} </Text>
-            <Text style={styles.text}> Manager  : {data.supporter} </Text>
-            {space}
-            <Text style={styles.text}> Severity : {data.severity} </Text>
-            <Text style={styles.text}> Priority :{data.priority} </Text>
-            <Text>
-            </Text>
+            <View style= {[styles.temp2]}>
+              <Text>
+              </Text>
+              <Text style={styles.text}> Category : {data.category} </Text>
+              <Text style={styles.text}> Manager  : {data.supporter} </Text>
+              {space}
+              <Text style={styles.text}> Severity : {data.severity} </Text>
+              <Text style={styles.text}> Priority :{data.priority} </Text>
+              <Text>
+              </Text>
+            </View>
+
           </View>
-
-
-
-        </View>
       </TouchableHighlight>
     );
   }
