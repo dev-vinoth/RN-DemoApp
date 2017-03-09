@@ -15,6 +15,7 @@ target 'CcmcRN' do
 	  'RCTWebSocket',
 	  'RCTAnimation',
       'RCTLinkingIOS',
+      'ART',
 	]
     
     pod 'react-native-material-kit', :path => '../node_modules/react-native-material-kit'

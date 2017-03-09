@@ -87,7 +87,7 @@ class SideMenu extends Component {
 
     return (
       <TouchableHighlight onPress={() => this.props.actions.routeNavigation(data)}>
-        <View style={{margin:10}}>
+        <View style={{margin:15}}>
           <Text>{data.title}</Text>
         </View>
       </TouchableHighlight>
@@ -103,6 +103,7 @@ class SideMenu extends Component {
           <Image
             style={styles.headerImage}
             source={require('../assets/sidemenu_header_bg/headerImg.png')} />
+            {/* source={require('./app/assets/sidemenu_header_bg/headerImg.png')} /> */}
         {/* </View> */}
         <ScrollView>
           <View style={styles.menuView}>
@@ -125,6 +126,7 @@ class SideMenu extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: 'white'
     // marginTop: 100,
   },
   menuView: {

@@ -15,6 +15,7 @@
 		189645DA1E60185C001ADA1C /* ReactModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189645D91E60185C001ADA1C /* ReactModule.swift */; };
 		189645DC1E60186C001ADA1C /* ReactManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189645DB1E60186C001ADA1C /* ReactManager.swift */; };
 		189645DF1E6018D5001ADA1C /* ReactManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 189645DE1E6018D5001ADA1C /* ReactManagerBridge.m */; };
+		18BF40DE1E7022EC00590A3B /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 18BF40DD1E7022EC00590A3B /* main.jsbundle */; };
 		3DC9F6256EA8351E64707D8C /* Pods_CcmcRN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5F5C89D09A5C4952A705EC /* Pods_CcmcRN.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		189645DB1E60186C001ADA1C /* ReactManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReactManager.swift; sourceTree = "<group>"; };
 		189645DD1E6018D5001ADA1C /* CcmcRN-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CcmcRN-Bridging-Header.h"; sourceTree = "<group>"; };
 		189645DE1E6018D5001ADA1C /* ReactManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactManagerBridge.m; sourceTree = "<group>"; };
+		18BF40DD1E7022EC00590A3B /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		1A5F5C89D09A5C4952A705EC /* Pods_CcmcRN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CcmcRN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		89E0FF0C592A585666136060 /* Pods-CcmcRN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CcmcRN.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CcmcRN/Pods-CcmcRN.debug.xcconfig"; sourceTree = "<group>"; };
 		B42B91A8E2FD428C35D53F04 /* Pods-CcmcRN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CcmcRN.release.xcconfig"; path = "Pods/Target Support Files/Pods-CcmcRN/Pods-CcmcRN.release.xcconfig"; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 		189645C61E60172A001ADA1C /* CcmcRN */ = {
 			isa = PBXGroup;
 			children = (
+				18BF40DD1E7022EC00590A3B /* main.jsbundle */,
 				189645C71E60172A001ADA1C /* AppDelegate.swift */,
 				189645C91E60172A001ADA1C /* ViewController.swift */,
 				189645D91E60185C001ADA1C /* ReactModule.swift */,
@@ -166,6 +169,7 @@
 				189645D21E60172A001ADA1C /* LaunchScreen.storyboard in Resources */,
 				189645CF1E60172A001ADA1C /* Assets.xcassets in Resources */,
 				189645CD1E60172A001ADA1C /* Main.storyboard in Resources */,
+				18BF40DE1E7022EC00590A3B /* main.jsbundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -34,7 +34,7 @@ class ReactModule: NSObject {
 extension ReactModule: RCTBridgeDelegate {
     func sourceURL(for bridge: RCTBridge!) -> URL! {
         // Return URL below during development
-        return URL(string: "http://192.168.122.1:8081/index.ios.bundle?platform=ios")
+        return URL(string: "http://192.168.2.89:8081/index.ios.bundle?platform=ios")
         
         //return URL(string: "http://localhost:8081/index.ios.bundle?platform=ios")
         

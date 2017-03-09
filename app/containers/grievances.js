@@ -13,6 +13,7 @@ import {
   TouchableHighlight,
   RefreshControl,
   ActivityIndicator,
+  Platform,
 } from 'react-native';
 
 import {
@@ -99,8 +100,6 @@ class Grievances extends Component {
   }
 
   componentWillMount() {
-
-    console.log('appear');
     //this.updateDataSource()
 
     //default : close drawer when mount
@@ -214,7 +213,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#EAEAEA',
 
-    marginTop: 65,
+    marginTop: Platform.OS !== 'ios' ? 54 : 64,
   },
   List: {
     flex: 1,

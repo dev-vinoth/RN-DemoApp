@@ -17,7 +17,7 @@ import {
 import Grievances from '../../containers/grievances'
 
 const styles = require('../../styles');
-const theme = getTheme();
+// const theme = getTheme();
 
 var base64Icon = 'http://www.getmdl.io/assets/demos/welcome_card.jpg';
 

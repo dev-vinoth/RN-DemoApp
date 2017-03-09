@@ -25,8 +25,7 @@ export default class NavigationDrawer extends Component {
                 negotiatePan={true}
                 acceptPan={true}
                 styles={{
-                  drawer: {shadowColor: '#000000', shadowOpacity: 0.8, shadowRadius: 3, elevation: 16},
-                  main: {paddingLeft: 3}
+                  drawer: {shadowColor: '#000000', shadowOpacity: 0.8, shadowRadius: 3, elevation: 1},
                 }}
                 tweenHandler={(ratio) => ({
                  main: { opacity:Math.max(0.54,1-ratio) }

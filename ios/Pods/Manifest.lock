@@ -3,6 +3,8 @@ PODS:
     - React/Core (= 0.38.0)
   - react-native-material-kit (0.3.3):
     - React
+  - React/ART (0.38.0):
+    - React/Core
   - React/Core (0.38.0)
   - React/RCTAnimation (0.38.0):
     - React/Core
@@ -20,6 +22,7 @@ PODS:
 
 DEPENDENCIES:
   - react-native-material-kit (from `../node_modules/react-native-material-kit`)
+  - React/ART (from `../node_modules/react-native`)
   - React/Core (from `../node_modules/react-native`)
   - React/RCTAnimation (from `../node_modules/react-native`)
   - React/RCTImage (from `../node_modules/react-native`)
@@ -38,6 +41,6 @@ SPEC CHECKSUMS:
   React: 3cdd13d7c8f6ad5c20216aa83e032f0ce4087944
   react-native-material-kit: 8a5b5b40d9aba047d35d9cf81d30096224e081fc
 
-PODFILE CHECKSUM: 0388d1ad706ea86fecd23a1a800f1c4f71230e76
+PODFILE CHECKSUM: 43d20a6c2c751f83c9e53fd7655b44b9e98cb484
 
 COCOAPODS: 1.2.0
