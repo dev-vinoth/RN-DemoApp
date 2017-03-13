@@ -16,8 +16,24 @@ target 'CcmcRN' do
 	  'RCTAnimation',
       'RCTLinkingIOS',
       'ART',
+      'RCTActionSheet',
+      'RCTGeolocation',
+      'RCTNetwork',
+      'RCTSettings',
+      'RCTVibration',
+      'RCTCameraRoll', #For camera roll picker
 	]
     
+    pod 'GoogleMaps'
+    
     pod 'react-native-material-kit', :path => '../node_modules/react-native-material-kit'
+    
+#    pod 'react-native-maps', :path => '../node_modules/react-native-maps'
+#    
+#    pod 'react-native-google-maps', :path => '../node_modules/react-native-maps'
+
+    pre_install do |installer|
+        def installer.verify_no_static_framework_transitive_dependencies; end
+    end
 
 end

@@ -36,7 +36,7 @@ class Home extends Component {
       weatherlocation: 'Coimbatore, India',
       weatherCondition: 'Partly cloudy',
       weatherTemp: '27 °C',
-      weatherImgUrl: 'http://www.getmdl.io/assets/demos/welcome_card.jpg'
+      weatherImgUrl: 'http://ccmc.gov.in/ccmcnews/images/img1.jpg'
     }
 
   }
@@ -66,7 +66,7 @@ class Home extends Component {
         </View>
 
         <View style = {{flex: 0.3, alignItems: 'stretch', backgroundColor : 'white', }}>
-          <Text style={{fontSize:20, marginLeft:10, }}>Service</Text>
+          <Text style={{fontSize:17, marginLeft:10, }}>Service</Text>
         </View>
 
         <HomeBottomView

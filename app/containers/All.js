@@ -7,6 +7,7 @@ import ScrollableTabView, { ScrollableTabBar, DefaultTabBar, } from 'react-nativ
 import Home from './home';
 import Graph from './graph';
 import Map from './map';
+import Chat from './chat';
 
 export default class MyComponent extends Component {
   render() {
@@ -21,6 +22,8 @@ export default class MyComponent extends Component {
           tabLabel="Graph" />
         <Map
           tabLabel="Map" />
+        <Chat
+          tabLabel="chat" />
       </ScrollableTabView>
     );
   }
