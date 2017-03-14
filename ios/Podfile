@@ -7,6 +7,7 @@ target 'CcmcRN' do
 
   # Pods for CcmcRN
 
+
 	pod 'React', :path => '../node_modules/react-native', :subspecs => [
 	  'Core',
 	  'RCTImage',
@@ -24,6 +25,8 @@ target 'CcmcRN' do
       'RCTCameraRoll', #For camera roll picker
 	]
     
+    pod 'Yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
+
     pod 'GoogleMaps'
     
     pod 'react-native-material-kit', :path => '../node_modules/react-native-material-kit'
@@ -32,8 +35,8 @@ target 'CcmcRN' do
 #    
 #    pod 'react-native-google-maps', :path => '../node_modules/react-native-maps'
 
-    pre_install do |installer|
-        def installer.verify_no_static_framework_transitive_dependencies; end
-    end
+#    pre_install do |installer|
+#        def installer.verify_no_static_framework_transitive_dependencies; end
+#    end
 
 end
